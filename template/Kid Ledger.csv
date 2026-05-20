@@ -1,0 +1,4 @@
+Spend Wallet,Save Bank,Give Box,Milestone Goals
+,=IFERROR(SUMIFS(D6:D, C6:C, "Spend Wallet"), 0),=IFERROR(SUMIFS(D6:D, C6:C, "Save Bank"), 0),=IFERROR(SUMIFS(D6:D, C6:C, "Give Box"), 0),=IFERROR(SUMIFS(D6:D, C6:C, "Milestone Goals"), 0)
+
+Date,Type,Bucket,Amount,Notes
